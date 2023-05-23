@@ -9,21 +9,57 @@
 /* Begin PBXBuildFile section */
 		2D00E11A2A17BCB500F2BBAE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D00E1192A17BCB500F2BBAE /* AppDelegate.swift */; };
 		2D00E11C2A17BCB500F2BBAE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D00E11B2A17BCB500F2BBAE /* SceneDelegate.swift */; };
-		2D00E11E2A17BCB500F2BBAE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D00E11D2A17BCB500F2BBAE /* ViewController.swift */; };
-		2D00E1212A17BCB500F2BBAE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D00E11F2A17BCB500F2BBAE /* Main.storyboard */; };
 		2D00E1232A17BCB900F2BBAE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D00E1222A17BCB900F2BBAE /* Assets.xcassets */; };
 		2D00E1262A17BCB900F2BBAE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D00E1242A17BCB900F2BBAE /* LaunchScreen.storyboard */; };
+		2D00E12E2A17C56200F2BBAE /* CatalogViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D00E12D2A17C56200F2BBAE /* CatalogViewController.swift */; };
+		2D00E1302A18FCAA00F2BBAE /* PosterCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D00E12F2A18FCAA00F2BBAE /* PosterCollectionViewCell.swift */; };
+		2D00E1322A1903B100F2BBAE /* CatalogueCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D00E1312A1903B100F2BBAE /* CatalogueCollectionViewCell.swift */; };
+		2D00E1342A192FF300F2BBAE /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D00E1332A192FF300F2BBAE /* Product.swift */; };
+		2D00E1362A19301200F2BBAE /* ProductList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D00E1352A19301100F2BBAE /* ProductList.swift */; };
+		2D00E1382A19363B00F2BBAE /* BasketViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D00E1372A19363B00F2BBAE /* BasketViewController.swift */; };
+		2D00E13A2A19400D00F2BBAE /* PurchaseDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D00E1392A19400D00F2BBAE /* PurchaseDetailViewController.swift */; };
+		2D00E1482A1A5E7100F2BBAE /* CataloguePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D00E1472A1A5E7000F2BBAE /* CataloguePresenter.swift */; };
+		2D00E14B2A1A72C400F2BBAE /* BasketTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D00E14A2A1A72C400F2BBAE /* BasketTableViewCell.swift */; };
+		2D00E14E2A1A741400F2BBAE /* ArbuzApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2D00E14C2A1A741400F2BBAE /* ArbuzApp.xcdatamodeld */; };
+		2D00E1502A1A750B00F2BBAE /* DataPersistanceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D00E14F2A1A750B00F2BBAE /* DataPersistanceManager.swift */; };
+		2D00E1522A1A775F00F2BBAE /* SectionsCatalogueCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D00E1512A1A775F00F2BBAE /* SectionsCatalogueCollectionViewCell.swift */; };
+		2D00E1542A1A786300F2BBAE /* ProductCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D00E1532A1A786300F2BBAE /* ProductCollectionViewCell.swift */; };
+		2D00E1562A1A792500F2BBAE /* SectionHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D00E1552A1A792500F2BBAE /* SectionHeader.swift */; };
+		2D00E15C2A1A7B5000F2BBAE /* ProductDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D00E15B2A1A7B5000F2BBAE /* ProductDetailViewController.swift */; };
+		2D00E15E2A1BD3D600F2BBAE /* SuccessViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D00E15D2A1BD3D500F2BBAE /* SuccessViewController.swift */; };
+		2D00E1602A1C017400F2BBAE /* MainTabBarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D00E15F2A1C017400F2BBAE /* MainTabBarVC.swift */; };
+		2D00E1622A1C088600F2BBAE /* BasicTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D00E1612A1C088600F2BBAE /* BasicTextField.swift */; };
+		2D00E1642A1CB4F800F2BBAE /* ProductDetailsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D00E1632A1CB4F800F2BBAE /* ProductDetailsPresenter.swift */; };
+		2D00E1662A1CCAFF00F2BBAE /* PosterCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D00E1652A1CCAFE00F2BBAE /* PosterCollectionView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		2D00E1162A17BCB500F2BBAE /* ArbuzApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ArbuzApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D00E1192A17BCB500F2BBAE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2D00E11B2A17BCB500F2BBAE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		2D00E11D2A17BCB500F2BBAE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		2D00E1202A17BCB500F2BBAE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2D00E1222A17BCB900F2BBAE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2D00E1252A17BCB900F2BBAE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2D00E1272A17BCB900F2BBAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2D00E12D2A17C56200F2BBAE /* CatalogViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalogViewController.swift; sourceTree = "<group>"; };
+		2D00E12F2A18FCAA00F2BBAE /* PosterCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PosterCollectionViewCell.swift; sourceTree = "<group>"; };
+		2D00E1312A1903B100F2BBAE /* CatalogueCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalogueCollectionViewCell.swift; sourceTree = "<group>"; };
+		2D00E1332A192FF300F2BBAE /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		2D00E1352A19301100F2BBAE /* ProductList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductList.swift; sourceTree = "<group>"; };
+		2D00E1372A19363B00F2BBAE /* BasketViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasketViewController.swift; sourceTree = "<group>"; };
+		2D00E1392A19400D00F2BBAE /* PurchaseDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PurchaseDetailViewController.swift; sourceTree = "<group>"; };
+		2D00E1472A1A5E7000F2BBAE /* CataloguePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CataloguePresenter.swift; sourceTree = "<group>"; };
+		2D00E14A2A1A72C400F2BBAE /* BasketTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasketTableViewCell.swift; sourceTree = "<group>"; };
+		2D00E14D2A1A741400F2BBAE /* ArbuzApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ArbuzApp.xcdatamodel; sourceTree = "<group>"; };
+		2D00E14F2A1A750B00F2BBAE /* DataPersistanceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataPersistanceManager.swift; sourceTree = "<group>"; };
+		2D00E1512A1A775F00F2BBAE /* SectionsCatalogueCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionsCatalogueCollectionViewCell.swift; sourceTree = "<group>"; };
+		2D00E1532A1A786300F2BBAE /* ProductCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCollectionViewCell.swift; sourceTree = "<group>"; };
+		2D00E1552A1A792500F2BBAE /* SectionHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionHeader.swift; sourceTree = "<group>"; };
+		2D00E15B2A1A7B5000F2BBAE /* ProductDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetailViewController.swift; sourceTree = "<group>"; };
+		2D00E15D2A1BD3D500F2BBAE /* SuccessViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuccessViewController.swift; sourceTree = "<group>"; };
+		2D00E15F2A1C017400F2BBAE /* MainTabBarVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarVC.swift; sourceTree = "<group>"; };
+		2D00E1612A1C088600F2BBAE /* BasicTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicTextField.swift; sourceTree = "<group>"; };
+		2D00E1632A1CB4F800F2BBAE /* ProductDetailsPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetailsPresenter.swift; sourceTree = "<group>"; };
+		2D00E1652A1CCAFE00F2BBAE /* PosterCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PosterCollectionView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +92,169 @@
 		2D00E1182A17BCB500F2BBAE /* ArbuzApp */ = {
 			isa = PBXGroup;
 			children = (
-				2D00E1192A17BCB500F2BBAE /* AppDelegate.swift */,
-				2D00E11B2A17BCB500F2BBAE /* SceneDelegate.swift */,
-				2D00E11D2A17BCB500F2BBAE /* ViewController.swift */,
-				2D00E11F2A17BCB500F2BBAE /* Main.storyboard */,
-				2D00E1222A17BCB900F2BBAE /* Assets.xcassets */,
-				2D00E1242A17BCB900F2BBAE /* LaunchScreen.storyboard */,
-				2D00E1272A17BCB900F2BBAE /* Info.plist */,
+				2D00E13D2A1A5D0800F2BBAE /* Screens */,
+				2D00E13C2A1A5CFE00F2BBAE /* Application */,
+				2D00E13B2A1A5CEE00F2BBAE /* Resources */,
+				2D00E14C2A1A741400F2BBAE /* ArbuzApp.xcdatamodeld */,
+				2D00E15F2A1C017400F2BBAE /* MainTabBarVC.swift */,
 			);
 			path = ArbuzApp;
+			sourceTree = "<group>";
+		};
+		2D00E13B2A1A5CEE00F2BBAE /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2D00E1222A17BCB900F2BBAE /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		2D00E13C2A1A5CFE00F2BBAE /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				2D00E1272A17BCB900F2BBAE /* Info.plist */,
+				2D00E1242A17BCB900F2BBAE /* LaunchScreen.storyboard */,
+				2D00E1192A17BCB500F2BBAE /* AppDelegate.swift */,
+				2D00E11B2A17BCB500F2BBAE /* SceneDelegate.swift */,
+				2D00E14F2A1A750B00F2BBAE /* DataPersistanceManager.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		2D00E13D2A1A5D0800F2BBAE /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				2D00E13E2A1A5D5100F2BBAE /* CatalogueScreen */,
+				2D00E1442A1A5DC000F2BBAE /* BasketScreen */,
+				2D00E13F2A1A5D6000F2BBAE /* PurchaseScreen */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		2D00E13E2A1A5D5100F2BBAE /* CatalogueScreen */ = {
+			isa = PBXGroup;
+			children = (
+				2D00E1582A1A7B1900F2BBAE /* ProductDetailScreen */,
+				2D00E1572A1A7AFE00F2BBAE /* CatalogueMainScreen */,
+			);
+			path = CatalogueScreen;
+			sourceTree = "<group>";
+		};
+		2D00E13F2A1A5D6000F2BBAE /* PurchaseScreen */ = {
+			isa = PBXGroup;
+			children = (
+				2D00E1462A1A5DE400F2BBAE /* View */,
+			);
+			path = PurchaseScreen;
+			sourceTree = "<group>";
+		};
+		2D00E1402A1A5D7E00F2BBAE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2D00E1332A192FF300F2BBAE /* Product.swift */,
+				2D00E1352A19301100F2BBAE /* ProductList.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2D00E1412A1A5D8300F2BBAE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2D00E12D2A17C56200F2BBAE /* CatalogViewController.swift */,
+				2D00E1432A1A5D9200F2BBAE /* Cells */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2D00E1422A1A5D8800F2BBAE /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				2D00E1472A1A5E7000F2BBAE /* CataloguePresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		2D00E1432A1A5D9200F2BBAE /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				2D00E1312A1903B100F2BBAE /* CatalogueCollectionViewCell.swift */,
+				2D00E12F2A18FCAA00F2BBAE /* PosterCollectionViewCell.swift */,
+				2D00E1512A1A775F00F2BBAE /* SectionsCatalogueCollectionViewCell.swift */,
+				2D00E1532A1A786300F2BBAE /* ProductCollectionViewCell.swift */,
+				2D00E1552A1A792500F2BBAE /* SectionHeader.swift */,
+				2D00E1652A1CCAFE00F2BBAE /* PosterCollectionView.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		2D00E1442A1A5DC000F2BBAE /* BasketScreen */ = {
+			isa = PBXGroup;
+			children = (
+				2D00E1452A1A5DD500F2BBAE /* VIew */,
+			);
+			path = BasketScreen;
+			sourceTree = "<group>";
+		};
+		2D00E1452A1A5DD500F2BBAE /* VIew */ = {
+			isa = PBXGroup;
+			children = (
+				2D00E1492A1A72A100F2BBAE /* Cell */,
+				2D00E1372A19363B00F2BBAE /* BasketViewController.swift */,
+			);
+			path = VIew;
+			sourceTree = "<group>";
+		};
+		2D00E1462A1A5DE400F2BBAE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2D00E1392A19400D00F2BBAE /* PurchaseDetailViewController.swift */,
+				2D00E15D2A1BD3D500F2BBAE /* SuccessViewController.swift */,
+				2D00E1612A1C088600F2BBAE /* BasicTextField.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2D00E1492A1A72A100F2BBAE /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				2D00E14A2A1A72C400F2BBAE /* BasketTableViewCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		2D00E1572A1A7AFE00F2BBAE /* CatalogueMainScreen */ = {
+			isa = PBXGroup;
+			children = (
+				2D00E1402A1A5D7E00F2BBAE /* Model */,
+				2D00E1412A1A5D8300F2BBAE /* View */,
+				2D00E1422A1A5D8800F2BBAE /* Presenter */,
+			);
+			path = CatalogueMainScreen;
+			sourceTree = "<group>";
+		};
+		2D00E1582A1A7B1900F2BBAE /* ProductDetailScreen */ = {
+			isa = PBXGroup;
+			children = (
+				2D00E15A2A1A7B2900F2BBAE /* Presenter */,
+				2D00E1592A1A7B2500F2BBAE /* View */,
+			);
+			path = ProductDetailScreen;
+			sourceTree = "<group>";
+		};
+		2D00E1592A1A7B2500F2BBAE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2D00E15B2A1A7B5000F2BBAE /* ProductDetailViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2D00E15A2A1A7B2900F2BBAE /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				2D00E1632A1CB4F800F2BBAE /* ProductDetailsPresenter.swift */,
+			);
+			path = Presenter;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,7 +317,6 @@
 			files = (
 				2D00E1262A17BCB900F2BBAE /* LaunchScreen.storyboard in Resources */,
 				2D00E1232A17BCB900F2BBAE /* Assets.xcassets in Resources */,
-				2D00E1212A17BCB500F2BBAE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +327,34 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2D00E11E2A17BCB500F2BBAE /* ViewController.swift in Sources */,
+				2D00E13A2A19400D00F2BBAE /* PurchaseDetailViewController.swift in Sources */,
+				2D00E14B2A1A72C400F2BBAE /* BasketTableViewCell.swift in Sources */,
+				2D00E1542A1A786300F2BBAE /* ProductCollectionViewCell.swift in Sources */,
+				2D00E1382A19363B00F2BBAE /* BasketViewController.swift in Sources */,
+				2D00E1502A1A750B00F2BBAE /* DataPersistanceManager.swift in Sources */,
+				2D00E1482A1A5E7100F2BBAE /* CataloguePresenter.swift in Sources */,
+				2D00E1362A19301200F2BBAE /* ProductList.swift in Sources */,
 				2D00E11A2A17BCB500F2BBAE /* AppDelegate.swift in Sources */,
+				2D00E1522A1A775F00F2BBAE /* SectionsCatalogueCollectionViewCell.swift in Sources */,
+				2D00E14E2A1A741400F2BBAE /* ArbuzApp.xcdatamodeld in Sources */,
+				2D00E15C2A1A7B5000F2BBAE /* ProductDetailViewController.swift in Sources */,
+				2D00E12E2A17C56200F2BBAE /* CatalogViewController.swift in Sources */,
+				2D00E1562A1A792500F2BBAE /* SectionHeader.swift in Sources */,
+				2D00E1662A1CCAFF00F2BBAE /* PosterCollectionView.swift in Sources */,
+				2D00E15E2A1BD3D600F2BBAE /* SuccessViewController.swift in Sources */,
+				2D00E1622A1C088600F2BBAE /* BasicTextField.swift in Sources */,
 				2D00E11C2A17BCB500F2BBAE /* SceneDelegate.swift in Sources */,
+				2D00E1322A1903B100F2BBAE /* CatalogueCollectionViewCell.swift in Sources */,
+				2D00E1642A1CB4F800F2BBAE /* ProductDetailsPresenter.swift in Sources */,
+				2D00E1602A1C017400F2BBAE /* MainTabBarVC.swift in Sources */,
+				2D00E1302A18FCAA00F2BBAE /* PosterCollectionViewCell.swift in Sources */,
+				2D00E1342A192FF300F2BBAE /* Product.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		2D00E11F2A17BCB500F2BBAE /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				2D00E1202A17BCB500F2BBAE /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		2D00E1242A17BCB900F2BBAE /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -291,10 +491,9 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = HY4RQ38UNC;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = ArbuzApp/Info.plist;
+				INFOPLIST_FILE = ArbuzApp/Application/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -319,10 +518,9 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = HY4RQ38UNC;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = ArbuzApp/Info.plist;
+				INFOPLIST_FILE = ArbuzApp/Application/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -360,6 +558,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		2D00E14C2A1A741400F2BBAE /* ArbuzApp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				2D00E14D2A1A741400F2BBAE /* ArbuzApp.xcdatamodel */,
+			);
+			currentVersion = 2D00E14D2A1A741400F2BBAE /* ArbuzApp.xcdatamodel */;
+			path = ArbuzApp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 2D00E10E2A17BCB500F2BBAE /* Project object */;
 }

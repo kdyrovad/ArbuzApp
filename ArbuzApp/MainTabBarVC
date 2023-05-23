@@ -1,0 +1,44 @@
+//
+//  ViewController.swift
+//  ArbuzApp
+//
+//  Created by Дильяра Кдырова on 19.05.2023.
+//
+
+import UIKit
+
+class MainTabBarVC: UITabBarController {
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        
+        let vc1 = catalogueVC()
+        let vc2 = UINavigationController(rootViewController: BasketViewController())
+        
+        vc1.tabBarItem.image = UIImage(named: "home.jpeg")
+        vc2.tabBarItem.image = UIImage(named: "basket.jpeg")
+        
+        vc1.title = "Home"
+        vc2.title = "Basket"
+        
+        tabBar.tintColor = .label
+        
+        setViewControllers([vc1, vc2], animated: true)
+    }
+    
+    private func catalogueVC() -> UINavigationController {
+        let presenter = CataloguePresenter()
+        let vc = CatalogueViewController(presenter: presenter)
+        presenter.view = vc
+        return UINavigationController(rootViewController: vc)
+    }
+    
+    static func createProductDetails(product: Product) -> ProductDetailsViewController {
+        let viewController = ProductDetailsViewController(product: product)
+        let presenter = ProductDetailsPresenter(view: viewController, product: product)
+        viewController.presenter = presenter
+        
+        return viewController
+    }
+}
+
